@@ -1,7 +1,9 @@
+import MainTextSection from '@/components/MainTextSection'
+
 export default function Home() {
 	return (
 		<div>
-			<p className='uppercase'>hello</p>
+			<MainTextSection />
 		</div>
 	)
 }
